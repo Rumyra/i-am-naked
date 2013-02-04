@@ -8,4 +8,8 @@ It was written because I seached for a long time and couldn't find a starting sk
 
 I hope that you find it as useful as I do.
 
+###To do
+
+Sort out nav function to render <nav> element
+
 *Written by [Ruth John](http://www.rumyra.com)*

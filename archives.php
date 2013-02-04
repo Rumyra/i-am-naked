@@ -13,12 +13,12 @@ get_header(); ?>
 				
 				<?php get_search_form(); ?>
 				
-				<h2><?php _e('Archives by month','building-blocks')?></h2>
+				<h2><?php _e('Archives by month','i-am-naked')?></h2>
 				<ul>
 					<?php wp_get_archives('type=monthly'); ?>
 				</ul>
 				
-				<h2><?php _e('Archives by category','building-blocks')?></h2>
+				<h2><?php _e('Archives by category','i-am-naked')?></h2>
 				<ul>
 					 <?php wp_list_categories(); ?>
 				</ul>
