@@ -18,7 +18,7 @@
 		</ol>
 	 <?php else : // this is displayed if there are no comments so far ?>
 		<?php if (!comments_open() && !get_option('boilerplate_hide_comments_disabled',false)) : ?>
-			<p><?php _e("Comments are disabled for this post.",'i-am-naked')?></p>
+			<p><?php _e("Sorry, comments are closed for this post.",'i-am-naked')?></p>
 		<?php endif; ?>
 	<?php endif?>
 	<?php paginate_comments_links() ?>
